@@ -1,0 +1,61 @@
+/* Light mode styles (default) */
+body {
+  --bg-primary: #f9fafb;
+  --bg-card: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #9ca3af;
+  --text-accent: #4ade80;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --hover-bg: #f3f4f6;
+  --icon-color: #1f2937;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  --bg-primary: #111827;
+  --bg-card: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #6b7280;
+  --text-accent: #4ade80;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --hover-bg: #374151;
+  --icon-color: #f9fafb;
+}
+
+body {
+  transition: background-color 0.3s ease;
+}
+
+body > div {
+  background-color: var(--bg-primary) !important;
+}
+
+body > div > div {
+  background-color: var(--bg-card) !important;
+  box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -2px var(--shadow);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.name {
+  color: var(--text-primary) !important;
+  transition: color 0.3s ease;
+}
+
+.username {
+  color: var(--text-secondary) !important;
+  transition: color 0.3s ease;
+}
+
+#themeToggle {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+#themeToggle:hover {
+  background-color: var(--hover-bg) !important;
+}
+
+#themeToggle svg {
+  color: var(--icon-color) !important;
+  transition: color 0.3s ease;
+}
