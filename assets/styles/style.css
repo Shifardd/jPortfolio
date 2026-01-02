@@ -46,6 +46,11 @@ body > div > div {
   transition: color 0.3s ease;
 }
 
+.about {
+  color: var(--text-primary) !important;
+  transition: color 0.3s ease;
+}
+
 #themeToggle {
   background-color: transparent;
   transition: background-color 0.3s ease;
