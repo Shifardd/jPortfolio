@@ -61,7 +61,10 @@ body > div > div {
   transition: background-color 0.3s ease;
 }
 
-
+.github-contribution {
+  color: var(--text-primary) !important;
+  transition: color 0.3s ease;
+}
 
 #themeToggle {
   background-color: transparent;
