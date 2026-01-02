@@ -51,6 +51,18 @@ body > div > div {
   transition: color 0.3s ease;
 }
 
+.projects {
+  color: var(--text-primary) !important;
+  transition: color 0.3s ease;
+}
+
+.project-card {
+  background-color: var(--bg-primary) !important;
+  transition: background-color 0.3s ease;
+}
+
+
+
 #themeToggle {
   background-color: transparent;
   transition: background-color 0.3s ease;
@@ -64,3 +76,5 @@ body > div > div {
   color: var(--icon-color) !important;
   transition: color 0.3s ease;
 }
+
+
