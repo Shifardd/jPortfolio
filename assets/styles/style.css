@@ -36,7 +36,7 @@ body > div > div {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.name {
+.name, .about, .projects, .github-contribution, .blogs {
   color: var(--text-primary) !important;
   transition: color 0.3s ease;
 }
@@ -46,24 +46,9 @@ body > div > div {
   transition: color 0.3s ease;
 }
 
-.about {
-  color: var(--text-primary) !important;
-  transition: color 0.3s ease;
-}
-
-.projects {
-  color: var(--text-primary) !important;
-  transition: color 0.3s ease;
-}
-
-.project-card {
+.project-card, .blog-card {
   background-color: var(--bg-primary) !important;
   transition: background-color 0.3s ease;
-}
-
-.github-contribution {
-  color: var(--text-primary) !important;
-  transition: color 0.3s ease;
 }
 
 #themeToggle {
