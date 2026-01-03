@@ -76,6 +76,13 @@ body > div > div {
   filter: brightness(0) saturate(100%) invert(57%) sepia(83%) saturate(749%) hue-rotate(85deg) brightness(95%) contrast(92%) !important;
 }
 
+.projects svg>path {
+  transition: all 0.3s ease;
+}
+
+.projects svg:hover>path {
+  fill: rgb(214, 11, 214) !important;
+}
 
 #themeToggle {
   background-color: transparent;
