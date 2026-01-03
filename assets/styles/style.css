@@ -51,6 +51,32 @@ body > div > div {
   transition: background-color 0.3s ease;
 }
 
+.resume {
+  transition: all 0.3s ease;
+}
+
+.resume:hover {  
+  background-color: var(--bg-primary)!important;
+  color: var(--text-primary) !important;
+  border-color: var(--text-primary) !important;
+}
+
+.accounts svg>path, .accounts div {
+  transition: all 0.3s ease;
+}
+
+.accounts svg:hover>path{
+  fill: var(--icon-color) !important;
+  opacity: 0.8 !important;
+}
+
+.accounts div:hover{
+  color: var(--text-accent);
+  border-color: var(--text-accent);
+  filter: brightness(0) saturate(100%) invert(57%) sepia(83%) saturate(749%) hue-rotate(85deg) brightness(95%) contrast(92%) !important;
+}
+
+
 #themeToggle {
   background-color: transparent;
   transition: background-color 0.3s ease;
