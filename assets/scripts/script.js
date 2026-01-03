@@ -25,3 +25,8 @@ themeToggle.addEventListener('click', () => {
   isDark = !isDark;
   applyTheme();
 });
+
+const resumeButton = document.querySelector('.resume');
+resumeButton.addEventListener('click', () => {
+  window.open('https://drive.google.com/file/d/1zaLl7CHhg6JJvxF_o8y6SwrzDc7ZpP4n/view?usp=sharing', '_blank');
+});
