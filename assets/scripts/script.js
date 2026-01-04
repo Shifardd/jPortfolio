@@ -28,7 +28,7 @@ themeToggle.addEventListener('click', () => {
 
 const resumeButton = document.querySelector('.resume');
 resumeButton.addEventListener('click', () => {
-  window.open('https://drive.google.com/file/d/1zaLl7CHhg6JJvxF_o8y6SwrzDc7ZpP4n/view?usp=sharing', '_blank');
+  window.open('https://docs.google.com/document/d/16z6p2y4TegMceGIsjIKMaU7Qpc62AcEs03TRGw7zr0Y/edit?usp=sharing', '_blank');
 });
 
 
