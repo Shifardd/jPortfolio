@@ -24,6 +24,35 @@ body.dark-mode {
 
 body {
   transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.background {
+  /* 1. Define the gradient (use 3+ colors for the best effect) */
+  background: linear-gradient(-90deg, #08D9D6, #252A34, #FF2E63, #EAEAEA);
+  
+  /* 2. Make the background much larger than the element */
+  background-size: 400% 400%;
+  
+  /* 3. Attach the animation */
+  animation: gradientMove 15s ease infinite;
+  
+  /* Just for visibility */
+  width: 100%;
+  height: 100%;
+}
+
+/* 4. Define the movement logic */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 body > div {
