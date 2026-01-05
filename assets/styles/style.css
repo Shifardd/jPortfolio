@@ -99,10 +99,14 @@ body > div > div {
   opacity: 0.8 !important;
 }
 
+.accounts div{
+  transition: all 3s ease;
+}
+
 .accounts div:hover{
-  color: var(--text-accent);
-  border-color: var(--text-accent);
-  filter: brightness(0) saturate(100%) invert(57%) sepia(83%) saturate(749%) hue-rotate(85deg) brightness(95%) contrast(92%) !important;
+  color: rgb(214, 44, 214) !important;
+  border-color: rgb(214, 44, 214) !important;
+  filter: brightness(0) saturate(100%) invert(31%) sepia(74%) saturate(7158%) hue-rotate(288deg) brightness(107%) contrast(82%);
 }
 
 .projects svg>path {
